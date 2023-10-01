@@ -11,11 +11,13 @@ import { SidNavigationComponent } from './sid-navigation/sid-navigation.componen
 import { MatButtonModule } from '@angular/material/button';
 import {MatGridListModule} from "@angular/material/grid-list";
 import {RouterOutlet} from "@angular/router";
+import { ChartComponent } from './sid-navigation/chart/chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidNavigationComponent,
+    ChartComponent,
   ],
   imports: [
     BrowserModule,
